@@ -1,0 +1,450 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #90D4D4;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, serif;
+}
+
+p {
+    font-family: serif;
+    font-size: 14px;
+}
+
+#header {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    padding: 16px;
+    position: relative;
+    background-color:#BFFFFF;
+}
+
+
+nav {
+    overflow: hidden;
+    width: 60%;
+    float: right;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    display: block;
+    float: left;
+    text-align: center;
+    color: :#BFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+
+nav li a:hover {
+      background-color: #ddd;
+    border-bottom: 5px solid #ffffff;
+}
+
+dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown, right {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown, right-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown, right-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+#content {
+    width: 62.8888889%;
+
+    float: left;
+    margin-top: 16px;
+}
+
+/* the article which relates to a forword from owner of business, is kept visually separate
+		from other content as it is more squared off */
+#content article {
+    padding: 16px 8.48056537%;
+
+}
+
+/* the header of the article section has been made large inorder to attact attention */
+#content article h2 {
+    font-size: 40px;
+}
+
+/* the header of the article section has been made large inorder to attact attention */
+#content article h3 {
+    font-size: 30px;
+}
+
+article p {
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+#sidebar {
+    width: 36.7777778%;
+    float: right;
+    margin-top: 16px;
+    background-color:#BFFFFF;
+}
+
+#sidebar div {
+    padding: 16px 48px;
+}
+
+#sidebar ul li {
+    margin-bottom: 16px;
+    list-style-type: square;
+}
+
+
+#footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    clear: both;
+    background-color: #BFFFFF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1px 0;
+    text-align: center;
+    color: #717272;
+    font-size: 14px;
+   position: static;
+    bottom: 0;
+    width: 100%;
+  height: 2.5rem;;
+    clear:both;
+}
+
+#footer a {
+    color: #475151;
+    font-weight: bold;
+
+}
+
+/*reducing font size to smaller than the body as it sub text. Putting a space top and bottom of list of 1em.*/
+#footer ul {
+    margin: 16px;
+    padding: 16px;
+}
+
+
+/*this will put more space between the list items*/
+#footer li {
+    float: center;
+    margin: 2%;
+    display: inline;
+}
+
+dt {
+    font-weight: bold;
+}
+
+
+#container {
+    width:100%;
+    margin: 48px auto;
+    padding: inherit;
+    display: flex;
+   
+}
+
+
+#container ul li {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    list-style-type: none;
+}
+
+img {
+    width:100%;
+    height:auto;
+    vertical-align: middle;
+}
+
+.pics_in_a_row {
+  display: flex;
+}
+
+/****************************************************/
+
+#snapchat {
+background-color:#FFFC00;
+}
+
+#sidebar1{ 
+    width: 36.7777778%;
+    float: right;
+    margin-top: 16px;
+    background-color:#000000;
+    color:#ffffff;
+}
+
+#sidebar1 div {
+    padding: 16px 48px;
+}
+
+#sidebar1 ul li {
+    color: #ffffff;
+    margin-bottom: 16px;
+    list-style-type: square;
+}
+
+#header1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    padding: 16px;
+    position: relative;
+    background-color: #000000;
+}
+
+#footer1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    clear: both;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+  height: 2.5rem;;
+    clear:both;
+}
+}
+#footer a {
+    color: #475151;
+    font-weight: bold;
+
+}
+
+#footer1 ul {
+    margin: 16px;
+    padding: 16px;
+}
+
+#footer1 li {
+    float: center;
+    margin: 2%;
+    display: inline;
+}
+
+/*****************************************************/
+
+#youtube {
+background-color:#FFFFFF;
+}
+
+#sidebar2{ 
+    width: 36.7777778%;
+    float: right;
+    margin-top: 16px;
+    background-color:#FF0000;
+    color:#000000;
+}
+
+#sidebar2 div {
+    padding: 16px 48px;
+}
+
+#sidebar2 ul li {
+    color: #ffffff;
+    margin-bottom: 16px;
+    list-style-type: square;
+}
+
+#header2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    padding: 16px;
+    position: relative;
+    background-color: #FF0000;
+}
+
+#footer2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    clear: both;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+     position: static;
+    bottom: 0;
+    width: 100%;
+  height: 2.5rem;;
+    clear:both;
+}
+
+#footer2 a {
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+#footer2 ul {
+    margin: 16px;
+    padding: 16px;
+}
+
+#footer2 li {
+    float: center;
+    margin: 2%;
+    display: inline;
+}
+.logo{
+    width: 40%;
+    float:left;
+    clear:right;
+}
+
+/*****************************************************/
+#sitemap {
+	width:800px;
+	margin:2px auto;
+	}
+
+#sitemap h2 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size:40px;
+	margin-bottom: 8px;
+	}
+
+#sitemap ul {
+  background:  #717272;
+  padding: 20px;
+}
+
+#sitemap ul li {
+ background: #90D4D4;
+
+}
+
+/*************************************************************/
+
+.masthead {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.masthead a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.masthead a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+    
+/*************************************************************/
+    
+table, th, td{
+  border: 1px solid black;
+        border-collapse: collapse;
+}
+    
+    #customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+    padding-left: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
