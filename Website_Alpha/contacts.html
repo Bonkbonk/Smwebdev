@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Learning through the Internet!</title>
+     <meta charset="UTF-8">
+        <title>Form page</title>
+        <link rel="stylesheet" type="text/css" href="formstyle.css">
+    
+</head>
+
+<body>
+
+    <header id="header">
+        
+            <nav id="nav">
+               
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="links.html">Links</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+               
+            </nav>
+      
+    </header>
+
+        <form>
+        <fieldset>
+                   <legend>Section 1: Login</legend>
+            
+            <p>Please enter your login details here</p>
+        
+            <div>
+                <label for="firstname">First name: </label>
+                <input type="text" name="firstname" id="firstname" required>
+            </div>
+
+            <div>
+                <label for="lastname">Last name: </label>
+                <input type="text" name="lastname" id="lastname" required>   
+            </div>
+
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="tel">Phone: </label>
+                <input type="tele" name="tele" id="tele">
+            </div>
+
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" required>     
+            </div> 
+            
+        </fieldset>
+        
+        <fieldset>
+            
+            <legend>Section 2: More about you</legend>
+            
+            <p>When and where were you born?</p>
+        
+            <div>
+                <label for="country">Country: </label>
+                <input type="text" name="country" id="country" value="Ireland">   
+            </div>
+
+            <div>
+                <label for="nationality">Nationality: </label>
+                <input type="text" name="nationality" id="nationality" placeholder="If dual, enter both">   
+            </div>
+            
+            <div>
+                <label for="dob">Date of birth: </label>
+                <input type="date" name="dob" id="dob" max="2013-06-17" min="1920-10-10">
+            </div>
+            
+            <label for="born">Where were you born: </label>
+                <input type="text" name="born" id="born" value="Ireland"> 
+        </fieldset>
+          <fieldset>
+             <legend>Forgot your password?</legend>
+            
+            <p>Please enter the following information.
+            What is your favourite animal?</p>
+            <div class="checkbox">
+            <div>
+                <label for="dog">Dog</label>
+                <input type="checkbox" name="Dog" id="dog">
+                
+            </div>
+            <div>
+                <label for="cat">Cat</label>
+                <input type="checkbox" name="Cat" id="cat">
+                
+            </div>
+            <div>
+                <label for="rabbit">Rabbit</label>
+                <input type="checkbox" name="Rabbit" id="rabbit">
+                
+            </div>
+            <div>
+                <label for="bird">Bird</label>
+                <input type="checkbox" name="Bird" id="bird">
+                
+            </div>
+            <div>
+                <label for="rat">Rat</label>
+                <input type="checkbox" name="Rat" id="rat">
+                
+            </div>
+            <div>
+                <label for="hamster">Hamster</label>
+                <input type="checkbox" name="Hamster" id="hamster">
+            
+            </div>
+              </div>
+              
+              <div> <label for="maiden">What is your mothers maiden name: </label>
+                <input type="text" name="maiden" id="maiden"> </div>
+            </fieldset>
+            <fieldset>
+            
+            <legend>Section 3:Which level of schooling have you completed up to, or last?</legend>
+            
+            <div>
+                <label for="Schooling">Choose a level: </label>
+                 <select name="Education" id="education">
+                <optgroup>
+                        <option value="primary">Primary School</option>
+                        <option value="secondary">Secondary School</option>
+                        <option value="third">Third Level</option>
+                        <option value="none/other">None/Other</option>
+                    </optgroup>
+               <optgroup label="Other">
+                        <option value="apprenticeships">Apprenticeships</option>
+                        <option value="work">Working</option>
+                    </optgroup>
+                </select>
+            </div>
+            </fieldset>
+            
+            <button type="submit"><a href="userdata.html">Submit form</a></button>
+        <button type="reset">Reset form</button>
+        </form>
+   
+
+    
+
+</body>
+
+
+
+</html>
